@@ -6,6 +6,7 @@ namespace Calculator
     {
         static void Main()
         {
+            Console.Clear();
             Menu();
         }
         static void Menu()
@@ -33,11 +34,9 @@ namespace Calculator
                     case 2:
                         Conta('-');
                         break;
-
                     case 3:
                         Conta('/');
                         break;
-
                     case 4:
                         Conta('*');
                         break;
